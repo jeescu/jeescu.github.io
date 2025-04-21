@@ -10,58 +10,41 @@
 </head>
 
 <body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/jeescu" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-github"></i>
-        </a>
-      </div>
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://www.linkedin.com/in/john-edward-escuyos-a480a3b4" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-linkedin"></i>
-        </a>
-      </div>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <a href="https://github.com/jeescu" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
-          </a>
-        </div>
-        <div class="navbar-item">
-          <a href="https://www.linkedin.com/in/john-edward-escuyos-a480a3b4" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
   <section class="hero is-primary">
     <div class="hero-body">
       <div class="container">
         <div class="level">
-          <div class="level-item has-text-centered">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="img/me.jpg">
+          <div class="">
+            <figure class="image is-64x64">
+              <img class="image-profile" src="img/me.jpg">
             </figure>
           </div>
         </div>
-        <div class="columns has-text-centered">
+        <div class="columns">
           <div class="column">
             <h1 class="title is-1">
-              John Edward Escuyos
+              Hi, I'm John Edward Escuyos
             </h1>
             <h2 class="subtitle">
-              Senior Software Engineer, Phillipines
+              Senior Software Engineer, Philippines
             </h2>
             <p>
-              <a href="docs/resume.pdf" class="icon has-text-light">
+              <a href="docs/resume.pdf" class="has-text-light">
                 <i class="fas fa-file-pdf"></i> <strong>Resume</strong>
               </a>
             </p>
+          </div>
+        </div>
+        <div class="is-flex">
+          <div class="">
+            <a href="https://github.com/jeescu" class="icon is-large has-text-light">
+              <i class="fab fa-2x fa-github"></i>
+            </a>
+          </div>
+          <div class="">
+            <a href="https://www.linkedin.com/in/john-edward-escuyos-a480a3b4" class="icon is-large has-text-light">
+              <i class="fab fa-2x fa-linkedin"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -72,10 +55,11 @@
     <div class="container">
       <h1 class="title">About Me</h1>
       <hr />
-      <p>Dedicated and efficient full stack developer, focused on front-end development with 7 years of experience in web development using various frontend and backend frameworks.
+      <p class="">
+        Dedicated and efficient full stack developer, focused on front-end development with 7 years of experience in web and mobile development using various frontend and backend frameworks.
       </p>
       <br />
-      <p>You know what's possible and what's not. Think big, design and implement, you know it could work.</p>
+      <p>Proven expertise in leading projects from concept to completion with a focus on functionality and user-centric design.</p>
     </div>
   </section>
   <section class="section">
@@ -797,12 +781,15 @@
 
   <footer class="footer">
     <div class="content has-text-centered">
-      <p>
+      <p id="year">
         © jeescu 2020
       </p>
     </div>
   </footer>
 
+  <script>
+    document.getElementById("year").textContent = '© jeescu ' + new Date().getFullYear();
+  </script>
   <script src="js/bundle.js"></script>
 </body>
 
