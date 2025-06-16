@@ -10,7 +10,8 @@ code {
 
 body,
 pre {
-  color: #4a4a4a
+  color: #4a4a4a;
+  background: #F8F8F9
 }
 
 .content dd,
@@ -3785,7 +3786,8 @@ label.panel-block:hover {
 }
 
 .subtitle {
-  color: #4a4a4a;
+  /* color: #4a4a4a; */
+  color: #656465;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25
@@ -4746,7 +4748,8 @@ fieldset[disabled] .radio {
 
 .card {
   background-color: #fff;
-  box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+  /* box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02); */
+  box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 0px rgba(10, 10, 10, .02);
   max-width: 100%;
   border-radius: 12px;
 }
@@ -8567,7 +8570,8 @@ screen and (min-width:769px) {
 }
 
 .footer {
-  background-color: #fafafa
+  /* background-color: #fafafa */
+  background-color: #F8F8F9;
 }
 
 .section {
@@ -8582,6 +8586,15 @@ screen and (min-width:769px) {
   border-radius: 16px;
   border: 3px solid #fff;
   filter: drop-shadow(0px 4px 6px #D3D3D3);
+  object-fit: cover;
+  height: 100% !important;
+}
+
+.logo-card {
+  border-radius: 12px;
+  filter: drop-shadow(0px 4px 6px #D3D3D3);
+  padding: 8px;
+  background: white;
 }
 
 .text-shadow {
