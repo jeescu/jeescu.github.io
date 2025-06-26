@@ -8600,3 +8600,7 @@ screen and (min-width:769px) {
 .text-shadow {
   text-shadow: 0 2px 3px #D3D3D3;
 }
+
+.mr-4 {
+  margin-right: 4px;
+}
